@@ -1,0 +1,17 @@
+Original approach:
+Overall my original approach was fine, one thing I had to change was how
+I handled placing pieces. My original plan was to get a list of the valid
+moves for the current player, but this seemed in effecient. So I just
+validated whatever move the user passed in. Other than that is was the same
+as my preliminary. 
+
+Kernel Modules:
+Kernel modules were tricky at first. I got up to the point where I could open
+my device and run it, but had trouble figuring out how to parse the command 
+that the user entered. I got stuck to the point where I just left that issue
+for a couple of days to just focus on programming the game itself. So I decided
+to code reversi in userspace. This helped me alot since when I fully figured out
+the command parsing, I could just place what I made in my userspace. Coding the 
+game in userspace took me about 10 hours. 
+
+I'll stop this README short since I know you had to read our final document also :)

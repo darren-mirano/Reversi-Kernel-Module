@@ -1,0 +1,49 @@
+CMSC 421 Project 3 Grade
+Total Possible Points: 100
+
+Student: darren-mirano
+
+----------------------------------------------------------------------
+Character Device Driver
+    - Registers a character device (8 points)                  : 8
+    - Creates device file correctly (3 points)                 : 3
+    - Sets proper (0666) permissions on device file (2 points) : 2
+    - Cleans up on driver unload (5 points)                    : 5
+----------------------------------------------------------------------
+Reversi
+    - 00 - Create/initialize game (5 points)                   : 5
+    - 01 - Return game board (5 points)                        : 5
+    - 02 - Perform player move (5 points)                      : 5 
+    - 03 - Perform CPU move (5 points)                         : 5
+    - 04 - Pass player turn (5 points)                         : 5
+    - Locking prevents race conditions (5 points)              : 5
+    - Checking validity of moves, including pass (10 points)   : 10
+    - Checking for endgame conditions (5 points)               : 5
+    - Read/write file operation implementation (5 points)      : 5
+----------------------------------------------------------------------
+Design/General
+    - Initial Design Document (10 points)                      : 10
+    - Final Design Document (20 points)                        : 15
+    - Includes Makefile to build module (1 point)              : 0
+    - Includes README file (1 point)                           : 1
+----------------------------------------------------------------------
+Extra Credit
+    - Two human players (2 points)                             : 
+    - Multiple games (3 points)                                : 
+    - Save/resume functionality (5 points)                     : 
+    - AI implementation (10 points)                            : 
+----------------------------------------------------------------------
+Penalties, if applicable (see below)                           : 
+----------------------------------------------------------------------
+Final Project 3 Grade                                          : 94
+
+Comments from the TA:
+----------------------------------------------------------------------
+makefile was empty
+
+
+
+
+
+
+Did not mention references used and number of lines of code for each function in the final design document 
